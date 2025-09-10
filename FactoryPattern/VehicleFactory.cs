@@ -15,7 +15,6 @@ namespace FactoryPattern
                 case 4:
                     return new Car();
                 default:
-                    throw new ArgumentException("Invalid wheel count. Supported values are 2, 3, or 4.");
                     return new Car();
             }
         }
